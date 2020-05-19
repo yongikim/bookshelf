@@ -2,3 +2,6 @@
 /public/assets*
 /tmp
 .env.*
+/apps/*/node_modules
+/apps/*/webpack-assets.json
+/public/bundle*
