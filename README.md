@@ -4,6 +4,17 @@ Welcome to your new Hanami project!
 
 ## Setup
 
+How to run the development server:
+
+```
+% bundle exec hanami server
+```
+How to build and watch front-end:
+
+```
+% yarn run webpack --watch
+```
+
 How to run tests:
 
 ```
@@ -14,12 +25,6 @@ How to run the development console:
 
 ```
 % bundle exec hanami console
-```
-
-How to run the development server:
-
-```
-% bundle exec hanami server
 ```
 
 How to prepare (create and migrate) DB for `development` and `test` environments:
