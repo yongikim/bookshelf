@@ -1,5 +1,4 @@
 const path = require('path')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
 const assetsPlugin = require('assets-webpack-plugin')
 
 module.exports = {
@@ -15,7 +14,6 @@ module.exports = {
     ]
   },
   plugins: [
-    new HtmlWebpackPlugin({ template: './front_end/index.html' }),
     new assetsPlugin()
   ],
   devServer: {
