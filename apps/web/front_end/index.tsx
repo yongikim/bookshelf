@@ -1,5 +1,5 @@
 import * as React from 'react'
-import ReactDom from 'react-dom'
+import * as ReactDom from 'react-dom'
 import Button from '@material-ui/core/button'
 
 type Props = {
@@ -8,4 +8,4 @@ type Props = {
 
 const App: React.FC<Props> = props => <Button variant="contained" color="primary">{`${props.title}`}</Button>
 
-ReactDom.render(<App title={'Hello'}/>, document.getElementById('app'))
+ReactDom.render(<App title={'HELLO WORLD'}/>, document.getElementById('app'))
